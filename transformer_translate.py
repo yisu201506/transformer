@@ -41,7 +41,7 @@ english.build_vocab(train_data, max_size=10000, min_freq=2)
 
 # Setup the training phase
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-load_model = True
+load_model = False
 save_model = True
 
 # Training hyperparameters

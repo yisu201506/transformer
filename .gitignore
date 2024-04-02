@@ -1,0 +1,6 @@
+runs/
+*.pth.tar
+.idea/
+.data/
+__pycache__/
+
